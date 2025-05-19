@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web informativa sobre formación profesional en informática con cursos, recursos y noticias actualizadas.">
+  <title>Formación en escalada</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Cabecera con navegación -->
+  <header>
+    <div class="header-container">
+      <h1>Formación en escalada</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#noticias">Material</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main>
+    <!-- Sección de Inicio/Introducción -->
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Descubre la mejor formación en escalada. Aquí encontrarás cursos, material y conocimientos para mejorar en el campo de la escalada.</p>
+      <figure>
+        <img src="c:\Users\ÁlvaroLópezBedón\Downloads\pagina web\el capitan.jpg" alt="el Capitan, Yosemite">
+        <figcaption>el capitan, Yosemite</figcaption>
+      </figure>
+    </section>
+
+    <!-- Sección de Cursos -->
+    <section id="cursos">
+      <h2>Cursos Disponibles</h2>
+      
+      <!-- Artículos con información de cursos -->
+      <article>
+        <h3>Curso de iniciación en escalada deportiva</h3>
+        <p>Aprendes técnicas básicas, aseguramiento, uso del arnés, nudos y cómo moverte en la roca.</p>
+        <p>Se practicará en rocódromos y vías equipadas.</p>
+      </article>
+
+      <article>
+        <h3>Curso de Escalada de Vía Larga Deportiva</h3>
+        <p>Aprendes a escalar varias reuniones seguidas, técnicas de rápel, gestión de cuerdas dobles.</p>
+      </article>
+
+      <article>
+        <h3>Curso de Escalada Clásica o Tradicional (Trad)</h3>
+        <p>Aprendes a colocar seguros flotantes (fisureros, friends), montar reuniones y asegurar al segundo</p>
+      </article>
+
+      <article>
+        <h3>Curso de Escalada Alpina</h3>
+        <p>Combina técnicas de escalada clásica con alpinismo: hielo, nieve, condiciones variables.</p>
+      </article>
+
+      <!-- Tabla comparativa de cursos -->
+      <table>
+        <caption>Comparativa de Cursos</caption>
+        <thead>
+          <tr>
+            <th>Curso</th>
+            <th>Duración</th>
+            <th>nivel necesario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Escalada Deportiva</td>
+            <td>3 dias</td>
+            <td>principiante</td>
+          </tr>
+          <tr>
+            <td>escalada de via larga</td>
+            <td>5 dias</td>
+            <td>intermedio</td>
+          </tr>
+          <tr>
+            <td>escalada clasica</td>
+            <td>1 semana</td>
+            <td>avanzado</td>
+          </tr>
+          <tr>
+            <td>escalada alpina</td>
+            <td>2 semanas</td>
+            <td>experto</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="noticias">
+      <h2>Dónde comprar material</h2>
+      <article>
+        <h3>Boreal</h3>
+        <p>prendas necesarias para la escalada</p>
+        <a href="https://borealoutdoor.com/es/">Leer más</a>
+      </article>
+      <article>
+        <h3>Dechatlon</h3>
+        <p>todo tipo de material de escalada</p>
+        <a href="https://www.decathlon.es/es/">Leer más</a>
+      </article>
+    </section>
+
+    <!-- Sección Multimedia -->
+    <section id="multimedia">
+      <h2>free solo de alex honnold en el capitan</h2>
+      <video controls>
+        <source src="c:\Users\tatch\Downloads\El vídeo de ESCALADA sin cuerda más peligroso (ALEX HONNOLD) _ National Geographic en Español.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </section>
+
+    <!-- Sección de Contacto con formulario -->
+    <section id="contacto">
+      <h2>Contacta con nosotros</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telf">numero de telefono:</label>
+        <input type="telf" id="telf" name="telf" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección FAQ con detalles desplegables -->
+    <section id="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Qué requisitos necesito para inscribirme?</summary>
+        <p>dependiendo de el curso a realizar se requerirá tener unos conocimientos de escalada minimos equivalentes a el grado de dificultad de estos</p>
+      </details>
+      <details>
+        <summary>¿es necesario llevar material?</summary>
+        <p>solo será necesario llevar el material se uso personal (pies de gato, casco, arnes...)</p>
+      </details>
+      <details>
+        <summary>¿Ofrecen modalidad online?</summary>
+        <p>No, Todos los cursos son presenciales</p>
+      </details>
+    </section>
+  </main>
+
+  <!-- Barra lateral con recursos adicionales -->
+  <aside>
+    <h2>Otras marcas de material de escalada y alpinismo</h2>
+    <ul>
+      <li><a href="https://www.lasportiva.com/es" target="_blank">la sportiva</a></li>
+      <li><a href="https://www.petzl.com/ES/es" target="_blank">petzl</a></li>
+      <li><a href="https://www.blackdiamondequipment.com/en_US/" target="_blank">Black diamond</a></li>
+    </ul>
+  </aside>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Formación Profesional en escalada. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#noticias">alex honnold</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
