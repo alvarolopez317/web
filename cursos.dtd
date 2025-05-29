@@ -1,0 +1,9 @@
+<!-- DTD para el inventario de juegos de la empresa -->
+<!ELEMENT inventario (cursos)>
+<!ELEMENT cursos (empresa, usuario, nombre_tipo)>
+<!ELEMENT empresa (the climb)>
+<!ELEMENT usuario (sputnik)>
+<!ELEMENT nombre_tipo (curso1, curso2)>
+<!ATTLIST cursos
+    id ID #REQUIRED
+>

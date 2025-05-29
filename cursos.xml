@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "cursos.dtd">
+<cursos>
+    <curso1 id="01">
+        <empresa>the climb</empresa>
+        <usuario>Álvaro López</usuario>
+        <nombre_tipo>Escalada Deportiva</nombre_tipo>
+    </curso1>
+    <curso2 id="02">
+        <empresa>sputnik</empresa>
+        <usuario>Álvaro López</usuario>
+        <nombre_tipo>Escalada de via larga</nombre_tipo>
+    </curso2>
+</cursos>
